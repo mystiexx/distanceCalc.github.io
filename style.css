@@ -1,0 +1,15 @@
+.card {
+    margin-left: 30%;
+}
+
+.h5 {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}

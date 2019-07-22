@@ -1,0 +1,53 @@
+<html>
+<title> Distamce </title>
+<head> 
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h4 class="navbar-brand"> Calculate Distance Travelled</h4>
+    </nav>
+    <br>
+    <div class="card text-white bg-dark" style="width:30rem;">
+        <div class="card-header">
+            Calculate Distance
+        </div>
+        <div class="card-body"> 
+    <form>
+        <div class="form-group"> 
+        <label for="exampleFormControlInput">What is your speed</label>
+        <div class="input-group mb-3">
+                <input type="text"  class = "form-control" id="speed" placeholder="Enter Speed">
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"> km/h</span>
+            </div>  
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput">How much time have you spent</label>
+        <div class="input-group mb-3"> 
+        <input type="text" id="time" class="form-control" placeholder="Enter Time">
+        <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">  minutes</span>
+            </div>  
+    </div>
+</div>
+
+        <span id="distance" class="display-4"></span>
+        <span id = "miles" class="display-4">Miles</span>
+
+    </form>
+
+    <button id="calculate" class="btn btn-primary btn-lg" onclick="calcDistance()">Calculate</button>
+</div>
+</div>
+<br>
+<footer class="navbar fixed-bottom navbar-expand-lg bg-dark">
+    <span class="h5"> &copy Ncrypt Services</span>
+     </footer>
+    <script src="./distance.js"></script>
+</body>
+</html>
